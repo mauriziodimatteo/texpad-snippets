@@ -1,0 +1,35 @@
+% A snippet to insert two figures side-by-side
+% Requires: subcaption
+
+group = Floating
+insert at cursor =
+\begin{figure}[hbt]
+\centering
+\begin{subfigure}[b]{.8\textwidth}
+\centering
+  \includegraphics[width=.8\columnwidth]{}
+  \caption{}
+  \label{}
+\end{subfigure}%
+\begin{subfigure}[b]{.5\textwidth}
+    \centering
+  \includegraphics[width=.8\columnwidth]{}
+  \caption{}
+  \label{}
+\end{subfigure} 
+\hfill
+\begin{subfigure}[b]{.8\textwidth}
+\centering
+  \includegraphics[width=.8\columnwidth]{}
+  \caption{}
+  \label{}
+\end{subfigure}%
+\begin{subfigure}[b]{.5\textwidth}
+    \centering
+  \includegraphics[width=.8\columnwidth]{}
+  \caption{}
+  \label{}
+\end{subfigure}
+\caption{}
+\label{}
+\end{figure}
